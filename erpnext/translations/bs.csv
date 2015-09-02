@@ -1356,7 +1356,7 @@ apps/erpnext/erpnext/setup/page/setup_wizard/setup_wizard.js +651,Sit tight whil
 apps/erpnext/erpnext/setup/page/setup_wizard/setup_wizard.js +660,Setup Complete,Setup Complete
 apps/erpnext/erpnext/setup/page/setup_wizard/setup_wizard.js +661,Your setup is complete. Refreshing.,Your setup is complete. Refreshing.
 apps/erpnext/erpnext/setup/page/setup_wizard/setup_wizard.py +166,Standard Buying,Standard Buying
-apps/erpnext/erpnext/setup/page/setup_wizard/setup_wizard.py +166,Standard Selling,Standard Selling
+apps/erpnext/erpnext/setup/page/setup_wizard/setup_wizard.py +166,Standard Selling,Standardna Prodaja
 apps/erpnext/erpnext/setup/page/setup_wizard/setup_wizard.py +23,Setup Already Complete!!,Setup Already Complete!!
 apps/erpnext/erpnext/setup/page/setup_wizard/setup_wizard.py +419,Commercial,Commercial
 apps/erpnext/erpnext/setup/page/setup_wizard/setup_wizard.py +438,Local,Local
@@ -2927,7 +2927,7 @@ DocType: Pricing Rule,For Price List,For Price List
 DocType: Pricing Rule,Pricing Rule,Pricing Rule
 DocType: Pricing Rule,Applicable For,Applicable For
 DocType: Pricing Rule,Brand,Brand
-DocType: Pricing Rule,Selling,Selling
+DocType: Pricing Rule,Selling,Prodaja
 DocType: Pricing Rule,Supplier,Supplier
 DocType: Pricing Rule,Price / Discount,Price / Discount
 DocType: Pricing Rule,Applicability,Applicability
