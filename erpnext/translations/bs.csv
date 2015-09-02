@@ -104,7 +104,7 @@ apps/erpnext/erpnext/accounts/doctype/fiscal_year/fiscal_year.py +34,Fiscal Year
 apps/erpnext/erpnext/accounts/doctype/fiscal_year/fiscal_year.py +48,Fiscal Year Start Date and Fiscal Year End Date are already set in Fiscal Year {0},Fiscal Year Start Date and Fiscal Year End Date are already set in Fiscal Year {0}
 apps/erpnext/erpnext/accounts/doctype/gl_entry/gl_entry.py +111,Balance for Account {0} must always be {1},Balance for Account {0} must always be {1}
 apps/erpnext/erpnext/accounts/doctype/gl_entry/gl_entry.py +124,You are not authorized to add or update entries before {0},You are not authorized to add or update entries before {0}
-apps/erpnext/erpnext/accounts/doctype/gl_entry/gl_entry.py +145,Against Journal Entry {0} is already adjusted against some other voucher,Against Journal Entry {0} is already adjusted against some other voucher
+apps/erpnext/erpnext/accounts/doctype/gl_entry/gl_entry.py +145,Against Journal Entry {0} is already adjusted against some other voucher,Against  {0} is already adjusted against some other voucher
 apps/erpnext/erpnext/accounts/doctype/gl_entry/gl_entry.py +154,Outstanding for {0} cannot be less than zero ({1}),Outstanding for {0} cannot be less than zero ({1})
 apps/erpnext/erpnext/accounts/doctype/gl_entry/gl_entry.py +168,Account {0} is frozen,Account {0} is frozen
 apps/erpnext/erpnext/accounts/doctype/gl_entry/gl_entry.py +170,Not authorized to edit frozen Account {0},Not authorized to edit frozen Account {0}
@@ -125,9 +125,9 @@ apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +122,Row {0
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +124,Row {0}: Payment against Sales/Purchase Order should always be marked as advance,Row {0}: Payment against Sales/Purchase Order should always be marked as advance
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +131,"For {0}, only credit accounts can be linked against another debit entry","For {0}, only credit accounts can be linked against another debit entry"
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +134,"For {0}, only debit accounts can be linked against another credit entry","For {0}, only debit accounts can be linked against another credit entry"
-apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +138,You can not enter current voucher in 'Against Journal Entry' column,You can not enter current voucher in 'Against Journal Entry' column
-apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +146,Journal Entry {0} does not have account {1} or already matched against other voucher,Journal Entry {0} does not have account {1} or already matched against other voucher
-apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +155,Against Journal Entry {0} does not have any unmatched {1} entry,Against Journal Entry {0} does not have any unmatched {1} entry
+apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +138,You can not enter current voucher in 'Against Journal Entry' column,You can not enter current voucher in 'Against ' column
+apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +146,Journal Entry {0} does not have account {1} or already matched against other voucher, {0} does not have account {1} or already matched against other voucher
+apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +155,Against Journal Entry {0} does not have any unmatched {1} entry,Against  {0} does not have any unmatched {1} entry
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +187,Row {0}: Debit entry can not be linked with a {1},Row {0}: Debit entry can not be linked with a {1}
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +190,Row {0}: Credit entry can not be linked with a {1},Row {0}: Credit entry can not be linked with a {1}
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +197,"Row {0}: Party / Account does not match with \
@@ -167,12 +167,12 @@ apps/erpnext/erpnext/accounts/doctype/payment_reconciliation/payment_reconciliat
 apps/erpnext/erpnext/accounts/doctype/payment_reconciliation/payment_reconciliation.py +191,Row {0}: Allocated amount {1} must be less than or equals to JV amount {2},Row {0}: Allocated amount {1} must be less than or equals to JV amount {2}
 apps/erpnext/erpnext/accounts/doctype/payment_reconciliation/payment_reconciliation.py +196,Row {0}: Allocated amount {1} must be less than or equals to invoice outstanding amount {2},Row {0}: Allocated amount {1} must be less than or equals to invoice outstanding amount {2}
 apps/erpnext/erpnext/accounts/doctype/payment_reconciliation/payment_reconciliation.py +200,"Please select Allocated Amount, Invoice Type and Invoice Number in atleast one row","Please select Allocated Amount, Invoice Type and Invoice Number in atleast one row"
-apps/erpnext/erpnext/accounts/doctype/payment_tool/payment_tool.js +142,"Against Voucher Type must be one of Sales Order, Sales Invoice or Journal Entry","Against Voucher Type must be one of Sales Order, Sales Invoice or Journal Entry"
-apps/erpnext/erpnext/accounts/doctype/payment_tool/payment_tool.js +148,"Against Voucher Type must be one of Purchase Order, Purchase Invoice or Journal Entry","Against Voucher Type must be one of Purchase Order, Purchase Invoice or Journal Entry"
+apps/erpnext/erpnext/accounts/doctype/payment_tool/payment_tool.js +142,"Against Voucher Type must be one of Sales Order, Sales Invoice or Journal Entry","Against Voucher Type must be one of Sales Order, Sales Invoice or "
+apps/erpnext/erpnext/accounts/doctype/payment_tool/payment_tool.js +148,"Against Voucher Type must be one of Purchase Order, Purchase Invoice or Journal Entry","Against Voucher Type must be one of Purchase Order, Purchase Invoice or "
 apps/erpnext/erpnext/accounts/doctype/payment_tool/payment_tool.js +189,Row {0}: Payment amount can not be negative,Row {0}: Payment amount can not be negative
 apps/erpnext/erpnext/accounts/doctype/payment_tool/payment_tool.js +191,Row {0}: Payment Amount cannot be greater than Outstanding Amount,Row {0}: Payment Amount cannot be greater than Outstanding Amount
 apps/erpnext/erpnext/accounts/doctype/payment_tool/payment_tool.js +217,Please select {0} first,Please select {0} first
-apps/erpnext/erpnext/accounts/doctype/payment_tool/payment_tool.js +9,"Note: If payment is not made against any reference, make Journal Entry manually.","Note: If payment is not made against any reference, make Journal Entry manually."
+apps/erpnext/erpnext/accounts/doctype/payment_tool/payment_tool.js +9,"Note: If payment is not made against any reference, make Journal Entry manually.","Note: If payment is not made against any reference, make  manually."
 apps/erpnext/erpnext/accounts/doctype/payment_tool/payment_tool.py +30,Please enter Payment Amount in atleast one row,Please enter Payment Amount in atleast one row
 apps/erpnext/erpnext/accounts/doctype/payment_tool/payment_tool.py +34,Row {0}: {1} is not a valid {2},Row {0}: {1} is not a valid {2}
 apps/erpnext/erpnext/accounts/doctype/payment_tool/payment_tool.py +61,No permission to use Payment Tool,No permission to use Payment Tool
@@ -271,7 +271,7 @@ apps/erpnext/erpnext/accounts/general_ledger.py +117,Please mention Round Off Ac
 apps/erpnext/erpnext/accounts/general_ledger.py +120,Please mention Round Off Cost Center in Company,Please mention Round Off Cost Center in Company
 apps/erpnext/erpnext/accounts/general_ledger.py +22,Incorrect number of General Ledger Entries found. You might have selected a wrong Account in the transaction.,Incorrect number of General Ledger Entries found. You might have selected a wrong Account in the transaction.
 apps/erpnext/erpnext/accounts/general_ledger.py +92,Account: {0} can only be updated via Stock Transactions,Account: {0} can only be updated via Stock Transactions
-apps/erpnext/erpnext/accounts/page/accounts_browser/accounts_browser.js +121,Add Child,Add Child
+apps/erpnext/erpnext/accounts/page/accounts_browser/accounts_browser.js +121,Add Child,Dodaj podstavku
 apps/erpnext/erpnext/accounts/page/accounts_browser/accounts_browser.js +196,Select a group node first.,Select a group node first.
 apps/erpnext/erpnext/accounts/page/accounts_browser/accounts_browser.js +202,New Account,New Account
 apps/erpnext/erpnext/accounts/page/accounts_browser/accounts_browser.js +204,New Account Name,New Account Name
@@ -281,7 +281,7 @@ apps/erpnext/erpnext/accounts/page/accounts_browser/accounts_browser.js +212,Opt
 apps/erpnext/erpnext/accounts/page/accounts_browser/accounts_browser.js +23,Quick Help,Quick Help
 apps/erpnext/erpnext/accounts/page/accounts_browser/accounts_browser.js +239,Create New,Create New
 apps/erpnext/erpnext/accounts/page/accounts_browser/accounts_browser.js +245,Warehouse is required,Warehouse is required
-apps/erpnext/erpnext/accounts/page/accounts_browser/accounts_browser.js +25,"To add child nodes, explore tree and click on the node under which you want to add more nodes.","To add child nodes, explore tree and click on the node under which you want to add more nodes."
+apps/erpnext/erpnext/accounts/page/accounts_browser/accounts_browser.js +25,"To add child nodes, explore tree and click on the node under which you want to add more nodes.","Za dodavanje novog konta, pregledajte stablo konta, pa kliknite na konto kome želite dodati podstavku"
 apps/erpnext/erpnext/accounts/page/accounts_browser/accounts_browser.js +27,Accounting Entries can be made against leaf nodes. Entries against Groups are not allowed.,Accounting Entries can be made against leaf nodes. Entries against Groups are not allowed.
 apps/erpnext/erpnext/accounts/page/accounts_browser/accounts_browser.js +280,New Cost Center,New Cost Center
 apps/erpnext/erpnext/accounts/page/accounts_browser/accounts_browser.js +282,New Cost Center Name,New Cost Center Name
@@ -428,7 +428,7 @@ apps/erpnext/erpnext/config/accounts.py +159,"e.g. Bank, Cash, Credit Card","e.g
 apps/erpnext/erpnext/config/accounts.py +164,C-Form records,C-Form records
 apps/erpnext/erpnext/config/accounts.py +18,Bills raised to Customers.,Bills raised to Customers.
 apps/erpnext/erpnext/config/accounts.py +23,Bills raised by Suppliers.,Bills raised by Suppliers.
-apps/erpnext/erpnext/config/accounts.py +41,Tree of finanial accounts.,Tree of finanial accounts.
+apps/erpnext/erpnext/config/accounts.py +41,Tree of finanial accounts.,Struktura finansijskih računa
 apps/erpnext/erpnext/config/accounts.py +53,Update bank payment dates with journals.,Update bank payment dates with journals.
 apps/erpnext/erpnext/config/accounts.py +58,Match non-linked Invoices and Payments.,Match non-linked Invoices and Payments.
 apps/erpnext/erpnext/config/accounts.py +63,Close Balance Sheet and book Profit or Loss.,Close Balance Sheet and book Profit or Loss.
@@ -574,7 +574,7 @@ apps/erpnext/erpnext/config/support.py +43,Single unit of an Item.,Single unit o
 apps/erpnext/erpnext/config/support.py +54,Setup incoming server for support email id. (e.g. support@example.com),Setup incoming server for support email id. (e.g. support@example.com)
 apps/erpnext/erpnext/config/website.py +13,"Settings for online shopping cart such as shipping rules, price list etc.","Settings for online shopping cart such as shipping rules, price list etc."
 apps/erpnext/erpnext/controllers/accounts_controller.py +184,{0} '{1}' is disabled,{0} '{1}' is disabled
-apps/erpnext/erpnext/controllers/accounts_controller.py +269,"Journal Entry {0} is linked against Order {1}, check if it should be pulled as advance in this invoice.","Journal Entry {0} is linked against Order {1}, check if it should be pulled as advance in this invoice."
+apps/erpnext/erpnext/controllers/accounts_controller.py +269,"Journal Entry {0} is linked against Order {1}, check if it should be pulled as advance in this invoice."," {0} is linked against Order {1}, check if it should be pulled as advance in this invoice."
 apps/erpnext/erpnext/controllers/accounts_controller.py +283,Warning: System will not check overbilling since amount for Item {0} in {1} is zero,Warning: System will not check overbilling since amount for Item {0} in {1} is zero
 apps/erpnext/erpnext/controllers/accounts_controller.py +299,"Cannot overbill for Item {0} in row {1} more than {2}. To allow overbilling, please set in Stock Settings","Cannot overbill for Item {0} in row {1} more than {2}. To allow overbilling, please set in Stock Settings"
 apps/erpnext/erpnext/controllers/accounts_controller.py +337,"Total advance ({0}) against Order {1} cannot be greater \
@@ -2572,7 +2572,7 @@ DocType: Journal Entry,Credit Card Entry,Credit Card Entry
 DocType: Journal Entry,Total Amount in Words,Total Amount in Words
 DocType: Journal Entry,Make Difference Entry,Make Difference Entry
 DocType: Journal Entry,Get Outstanding Invoices,Get Outstanding Invoices
-DocType: Journal Entry,Journal Entry,Journal Entry
+DocType: Journal Entry,Journal Entry,Glavna knjiga
 DocType: Journal Entry,User Remark will be added to Auto Remark,User Remark will be added to Auto Remark
 DocType: Journal Entry,View Details,View Details
 DocType: Journal Entry,Accounts Receivable,Accounts Receivable
@@ -2598,12 +2598,12 @@ DocType: Journal Entry Account,Against Purchase Invoice,Against Purchase Invoice
 DocType: Journal Entry Account,Account Balance,Account Balance
 DocType: Journal Entry Account,Against Expense Claim,Against Expense Claim
 DocType: Journal Entry Account,Against Sales Order,Against Sales Order
-DocType: Journal Entry Account,Against Journal Entry,Against Journal Entry
+DocType: Journal Entry Account,Against Journal Entry,Against 
 DocType: Journal Entry Account,Party Balance,Party Balance
 DocType: Journal Entry Account,Against Purchase Order,Against Purchase Order
-DocType: Journal Entry Account,Journal Entry Account,Journal Entry Account
+DocType: Journal Entry Account,Journal Entry Account,Konto Glavne knjige
 DocType: Journal Entry Account,If Income or Expense,If Income or Expense
-DocType: Journal Entry Account,Amount,Amount
+DocType: Journal Entry Account,Amount,Iznos
 DocType: Journal Entry Account,Against Sales Invoice,Against Sales Invoice
 DocType: Landed Cost Item,Applicable Charges,Applicable Charges
 DocType: Landed Cost Item,Purchase Receipt Item,Purchase Receipt Item
@@ -2861,7 +2861,7 @@ DocType: Page,No,No
 DocType: Party Account,Party Account,Party Account
 DocType: Party Account,col_break1,col_break1
 DocType: Payment Reconciliation,Reconcile,Reconcile
-DocType: Payment Reconciliation,Invoice/Journal Entry Details,Invoice/Journal Entry Details
+DocType: Payment Reconciliation,Invoice/Journal Entry Details,Invoice/ Details
 DocType: Payment Reconciliation,Unreconciled Payment Details,Unreconciled Payment Details
 DocType: Payment Reconciliation,Payments,Payments
 DocType: Payment Reconciliation,Payment Reconciliation,Payment Reconciliation
@@ -2888,7 +2888,7 @@ DocType: Payment Tool,Payment Account,Payment Account
 DocType: Payment Tool,Total Payment Amount,Total Payment Amount
 DocType: Payment Tool,Payment Tool,Payment Tool
 DocType: Payment Tool,Against Vouchers,Against Vouchers
-DocType: Payment Tool,Make Journal Entry,Make Journal Entry
+DocType: Payment Tool,Make Journal Entry,Make 
 DocType: Payment Tool,Set Matching Amounts,Set Matching Amounts
 DocType: Payment Tool,Column Break 1,Column Break 1
 DocType: Payment Tool,Get Outstanding Vouchers,Get Outstanding Vouchers
@@ -3125,7 +3125,7 @@ DocType: Purchase Invoice,Net Total (Company Currency),Net Total (Company Curren
 DocType: Purchase Invoice,Next Date,Next Date
 DocType: Purchase Invoice,Taxes and Charges Deducted (Company Currency),Taxes and Charges Deducted (Company Currency)
 DocType: Purchase Invoice Advance,Purchase Invoice Advance,Purchase Invoice Advance
-DocType: Purchase Invoice Advance,Journal Entry Detail No,Journal Entry Detail No
+DocType: Purchase Invoice Advance,Journal Entry Detail No, Detail No
 DocType: Purchase Invoice Item,Expense Head,Expense Head
 DocType: Purchase Invoice Item,Item Name,Item Name
 DocType: Purchase Invoice Item,Quantity and Rate,Quantity and Rate
