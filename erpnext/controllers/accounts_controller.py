@@ -156,7 +156,7 @@ class AccountsController(TransactionBase):
 						item.set("discount_percentage", ret.get("discount_percentage"))
 						if ret.get("pricing_rule_for") == "Price":
 							item.set("pricing_list_rate", ret.get("pricing_list_rate"))
-							
+
 
 	def set_taxes(self):
 		if not self.meta.get_field("taxes"):
@@ -217,13 +217,13 @@ class AccountsController(TransactionBase):
 
 		# conver sales_order to "Sales Order"
 		reference_type = against_order_field.replace("_", " ").title()
-		
+
 		condition = ""
 		if order_list:
 			in_placeholder = ', '.join(['%s'] * len(order_list))
 			condition = "or (t2.reference_type = '{0}' and ifnull(t2.reference_name, '') in ({1}))"\
 				.format(reference_type, in_placeholder)
-				
+
 		res = frappe.db.sql("""
 			select
 				t1.name as jv_no, t1.remark, t2.{0} as amount, t2.name as jv_detail_no,
