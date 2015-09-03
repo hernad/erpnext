@@ -1,3 +1,4 @@
+source,engleski,bosanski
 DocType: Employee,Salary Mode,Salary Mode
 apps/erpnext/erpnext/accounts/report/accounts_receivable/accounts_receivable.py +38,-Above,-Iznad
 apps/erpnext/erpnext/projects/doctype/task/task.py +38,'Actual Start Date' can not be greater than 'Actual End Date','Actual Start Date' can not be greater than 'Actual End Date'
@@ -497,9 +498,9 @@ DocType: Bank Reconciliation Detail,Bank Reconciliation Detail,Bank Reconciliati
 DocType: Email Digest,Bank/Cash Balance,Bank/Cash Balance
 apps/erpnext/erpnext/setup/page/setup_wizard/fixtures/industry_type.py +11,Banking,Banking
 apps/erpnext/erpnext/stock/doctype/item/item.py +204,Barcode {0} already used in Item {1},Barcode {0} already used in Item {1}
-DocType: Authorization Rule,Based On,Based On
-apps/erpnext/erpnext/setup/page/setup_wizard/install_fixtures.py +34,Basic,Basic
-DocType: Opportunity Item,Basic Rate,Basic Rate
+DocType: Authorization Rule,Based On,Na temelju
+apps/erpnext/erpnext/setup/page/setup_wizard/install_fixtures.py +34,Basic,Osnovni
+DocType: Opportunity Item,Basic Rate,Osnovna stopa
 DocType: Sales Order Item,Basic Rate (Company Currency),Basic Rate (Company Currency)
 DocType: Batch,Batch,Batch
 apps/erpnext/erpnext/config/stock.py +53,Batch (lot) of an Item.,Batch (lot) of an Item.
@@ -519,8 +520,8 @@ apps/erpnext/erpnext/config/manufacturing.py +14,Bill of Material,Bill of Materi
 apps/erpnext/erpnext/config/manufacturing.py +120,Bill of Materials,Bill of Materials
 apps/erpnext/erpnext/config/manufacturing.py +13,Bill of Materials (BOM),Bill of Materials (BOM)
 DocType: Time Log,Billable,Billable
-DocType: Time Log,Billed,Billed
-,Billed Amount,Billed Amount
+DocType: Time Log,Billed,Fakturisano
+,Billed Amount,Fakturisani iznos
 DocType: Purchase Order Item,Billed Amt,Billed Amt
 DocType: Address,Billing,Billing
 apps/erpnext/erpnext/accounts/page/pos/pos.js +15,Billing (Sales Invoice),Billing (Sales Invoice)
@@ -569,9 +570,9 @@ apps/erpnext/erpnext/setup/page/setup_wizard/fixtures/operations.py +94,Boring,B
 apps/erpnext/erpnext/stock/doctype/warehouse/warehouse.py +107,Both Warehouse must belong to same Company,Both Warehouse must belong to same Company
 apps/erpnext/erpnext/setup/page/setup_wizard/setup_wizard.js +626,Box,Box
 DocType: Branch,Branch,Branch
-DocType: Pricing Rule,Brand,Brand
+DocType: Pricing Rule,Brand,Brend
 apps/erpnext/erpnext/config/stock.py +125,Brand master.,Brand master.
-DocType: Sales Invoice Item,Brand Name,Brand Name
+DocType: Sales Invoice Item,Brand Name,Ime brenda
 DocType: Features Setup,Brands,Brands
 apps/erpnext/erpnext/setup/page/setup_wizard/fixtures/operations.py +141,Brazing,Brazing
 DocType: Maintenance Visit,Breakdown,Breakdown
@@ -594,8 +595,8 @@ apps/erpnext/erpnext/config/selling.py +153,Bundle items at time of sale.,Bundle
 apps/erpnext/erpnext/setup/page/setup_wizard/fixtures/operations.py +115,Burnishing,Burnishing
 apps/erpnext/erpnext/setup/page/setup_wizard/install_fixtures.py +89,Business Development Manager,Business Development Manager
 DocType: Customer,Buyer of Goods and Services.,Buyer of Goods and Services.
-DocType: Pricing Rule,Buying,Buying
-DocType: Email Digest,Buying & Selling,Buying & Selling
+DocType: Pricing Rule,Buying,Nabavke
+DocType: Email Digest,Buying & Selling,Nabavke I prodaja
 apps/erpnext/erpnext/accounts/report/gross_profit/gross_profit.py +66,Buying Amount,Buying Amount
 apps/erpnext/erpnext/accounts/doctype/pricing_rule/pricing_rule.py +41,"Buying must be checked, if Applicable For is selected as {0}","Buying must be checked, if Applicable For is selected as {0}"
 DocType: Buying Settings,Buying Settings,Buying Settings
@@ -3226,7 +3227,7 @@ apps/erpnext/erpnext/setup/page/setup_wizard/fixtures/operations.py +19,Spray fo
 apps/erpnext/erpnext/setup/page/setup_wizard/fixtures/operations.py +74,Staking,Staking
 apps/erpnext/erpnext/setup/page/setup_wizard/fixtures/operations.py +62,Stamping,Stamping
 DocType: Page,Standard,Standard
-apps/erpnext/erpnext/setup/page/setup_wizard/setup_wizard.py +166,Standard Buying,Standard Buying
+apps/erpnext/erpnext/setup/page/setup_wizard/setup_wizard.py +166,Standard Buying,Standardne nabavke
 apps/erpnext/erpnext/config/setup.py +42,Standard contract terms for Sales or Purchase.,Standard contract terms for Sales or Purchase.
 apps/frappe/frappe/desk/moduleview.py +67,Standard Reports,Standard Reports
 apps/erpnext/erpnext/setup/page/setup_wizard/setup_wizard.py +166,Standard Selling,Standardna Prodaja
